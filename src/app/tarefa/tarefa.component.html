@@ -1,0 +1,55 @@
+<form class="example-form" >
+
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Resumo:</mat-label>
+    <input matInput placeholder="Ex. DNS Não funciona" value="">
+  </mat-form-field>
+
+	<br />
+
+	<label class="tipo">Tipo de Problema:</label>
+	<input type="radio" id="tarefa" name="problema" value="TAREFA" checked>
+	  <label class="tipo" for="tarefa">Tarefa</label>
+	  <input type="radio" id="bug" name="problema" value="BUG">
+	  <label class="tipo" for="bug">Bug</label><br>
+
+	<br />
+
+  <label class="tipo">Prioridade</label>
+  <mat-form-field>
+    <select matNativeControl required>
+      <option value="-1">Selecione</option>
+      <option value="0">Crítica</option>
+      <option value="1">Alta</option>
+      <option value="2">Média</option>
+      <option value="3">Baixa</option>
+    </select>
+  </mat-form-field>
+
+	<br />
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Prazo Final</mat-label>
+    <input matInput placeholder="Ex. dia/mes/ano" value="">
+  </mat-form-field>
+
+	<br />
+
+  <mat-form-field class="example-full-descri">
+    <mat-label>Descrição</mat-label>
+    <input matInput placeholder="Ex. A aula de hoje foi " value="">
+  </mat-form-field>
+
+	<br />
+
+	<br />
+
+    <button class="example-button-row" >Salvar</button>
+
+
+</form>
+
+
+
+
